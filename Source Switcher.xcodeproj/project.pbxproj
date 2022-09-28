@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90833569288E858100FF63CD /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90833568288E858100FF63CD /* ApplicationMenu.swift */; };
 		90D9484A288A824600684B50 /* Source_SwitcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D94849288A824600684B50 /* Source_SwitcherApp.swift */; };
 		90D9484C288A824600684B50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D9484B288A824600684B50 /* ContentView.swift */; };
 		90D9484E288A824900684B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D9484D288A824900684B50 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90833568288E858100FF63CD /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
+		90BA281528E446970080DCE1 /* Source-Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Source-Switcher-Info.plist"; sourceTree = SOURCE_ROOT; };
 		90D94846288A824600684B50 /* Source Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Source Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D94849288A824600684B50 /* Source_SwitcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source_SwitcherApp.swift; sourceTree = "<group>"; };
 		90D9484B288A824600684B50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,11 +98,13 @@
 		90D94848288A824600684B50 /* Source Switcher */ = {
 			isa = PBXGroup;
 			children = (
+				90BA281528E446970080DCE1 /* Source-Switcher-Info.plist */,
 				90D94849288A824600684B50 /* Source_SwitcherApp.swift */,
 				90D9484B288A824600684B50 /* ContentView.swift */,
 				90D9484D288A824900684B50 /* Assets.xcassets */,
 				90D94852288A824900684B50 /* Source_Switcher.entitlements */,
 				90D9484F288A824900684B50 /* Preview Content */,
+				90833568288E858100FF63CD /* ApplicationMenu.swift */,
 			);
 			path = "Source Switcher";
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D9484C288A824600684B50 /* ContentView.swift in Sources */,
+				90833569288E858100FF63CD /* ApplicationMenu.swift in Sources */,
 				90D9484A288A824600684B50 /* Source_SwitcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +428,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Source Switcher/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Source-Switcher-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Source Switcher/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Source-Switcher-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
